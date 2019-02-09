@@ -69,6 +69,11 @@ const user = {
   age: 40
 }
 
-for(let x in user){
-  console.log(`${x} : ${user[x]}`);
-}
+// for(let x in user){
+//   console.log(`${x} : ${user[x]}`);
+// }
+
+for (const key in user) {
+  console.log(key,user[key])
+    
+  }
